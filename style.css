@@ -1,0 +1,75 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .nd-blue{
+    background-color: #003893 !important;
+  }
+
+  .nd-red{
+      background-color: #dc143c !important;
+  }
+
+  
+  .text-nd-blue{
+    color: #003893 !important;
+  }
+
+  .text-nd-red{
+      color: #dc143c !important;
+  }
+
+  #navbar {
+      z-index: 1000;
+      border-bottom: 2px solid #003893;
+      border-top: 1px solid #003893;
+  }
+  .heading {
+      padding-top: 10%;
+  }
+
+  .parallax-container {
+    height: 600px !important;
+  }
+
+  .parallax {
+    background-color: #000000;
+}
+.parallax-container .parallax #logo {
+    display: block !important;
+    opacity: 1;
+    position: relative;
+    width: 60%;
+    min-width: 50%;
+}
+.parallax img {
+    opacity: 0.7;
+}
+.parallax .text-box {
+    position: absolute; /* Position the background text */
+    padding-top: 7%; /* At the bottom. Use top:0 to append it to the top */
+    /* background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #fff; /* Grey text */
+    width: 100%; /* Full width */
+    padding: auto !important;
+    pointer-events: auto;
+}
+.parallax .text-box p a {
+    pointer-events: auto;
+}
+.brand-logo{
+    width: 50% !important;
+}
+
+.round{
+    border-radius: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 10%;
+}
